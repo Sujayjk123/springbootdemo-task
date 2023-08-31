@@ -73,20 +73,5 @@
 			</releases>
 		</pluginRepository>
 	</pluginRepositories>
-	<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.tomcat.maven</groupId>
-            <artifactId>tomcat9-maven-plugin</artifactId>
-            <version>0.79</version> <!-- Use the correct version -->
-            <configuration>
-                <!-- Configuration options for the plugin -->
-            </configuration>
-        </plugin>
-        <!-- Other plugins -->
-    </plugins>
-</build>
-
-
-
+	
 </project>
